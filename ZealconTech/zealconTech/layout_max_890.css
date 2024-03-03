@@ -1,0 +1,141 @@
+#body #layout {
+  padding: 20px;
+  padding-top: 0px;
+}
+
+#body #contentbox {
+  top: 40px;
+}
+
+body #header {
+  margin-top: 10px;
+}
+
+#header_logo svg{
+  width: 90px;
+  height: 45px;
+}
+
+.checklist {
+  width: 100%;
+  max-width: 440px;
+  font-size: 20px;
+}
+
+.checklist ul li {
+  margin-bottom: 10px;
+}
+
+.content_left .col-container .two-cols {
+  width: 100% !important;
+  padding: 0;
+  padding-bottom: 20px;
+}
+
+.content_left .col-container .three-cols {
+  width: 100% !important;
+  padding: 0;
+  padding-bottom: 20px;
+  margin: 0 !important;
+  margin-bottom: 25px !important;
+}
+
+
+
+.content_left .col-container.box .three-cols {
+  width: 100% !important;
+  padding: 15px;
+  margin: 0 !important;
+  margin-bottom: 25px !important;
+}
+
+/** BLOG **/
+.tx-typo3blog-pi1 .bloglist {
+  margin-top: 0px;
+}
+.tx-typo3blog-pi1 .blog-single .comments, 
+.tx-typo3blog-pi1 .blog-single .comments-form {
+  padding-right: 0;
+  padding-left: 0;
+  width: 100%;
+}
+.tx-typo3blog-pi1 .blog-single .blog-left,
+.tx-typo3blog-pi1 .blog-single .blog-right {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+}
+.content_left #c12 h1 {
+  font-size: 30px !important;
+}
+
+#footer {
+  position: relative;
+  right: 0;
+  left: 0;
+  top: 0;  
+  margin: 0 auto !important;
+  width: auto !important;
+}
+
+#footer svg{
+  width: 120px;
+  height: 50px;
+  margin-bottom: 35px;
+}
+
+@media screen and (max-width: 650px) {   
+  .tx-typo3blog-pi1 .bloglist {
+    width: 100%;
+    padding: 0;    
+  }
+  .tx-typo3blog-pi1 .blogitem .preview-image,
+  .tx-typo3blog-pi1 .blog-single .preview-image {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    
+  }
+}
+
+/** BLOG ENDE **/
+
+
+
+/** FAQ **/
+.tx-simplefaq {
+  width: 100%;
+}
+
+
+@media screen and (max-width: 650px) {   
+  .tx-powermail .powermail_form {
+    width: 100%;
+  }
+  .tx-powermail .powermail_fieldset .powermail_field.powermail_submit {
+    width: 100%;
+  }
+
+  #download  {
+    padding-top: 25px;
+    padding-bottom: 10px;
+  }
+
+  #download div.csc-textpic div.csc-textpic-imagecolumn {
+    float: none;
+    margin: 0;
+    margin-bottom: 20px;
+  }
+
+
+}
+
+/** FAQ ENDE**/
+
+
+@media screen and (max-width: 400px) {
+ .content_left h2, .content-right h2{
+  font-size:28px;
+ }
+}

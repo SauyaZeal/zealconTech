@@ -1,0 +1,42 @@
+.circlesz {
+  width:20px;
+  height:20px;
+  border: 1px solid #ff3bc0;
+  border-radius:10px;
+  position : absolute;
+}
+
+
+
+<script type="text/javascript">
+document.onmousemove = animateCircles;
+
+		var colors = ['#ccc','#6cf','#eba13a'];
+
+		function animateCircles (event) {
+			let circlesz = document.createElement("div");
+			circlesz.setAttribute("class", "circlesz");
+			document.body.appendChild(circlesz);
+
+			circlesz.style.left = event.clientX + 'px';
+			circlesz.style.top = event.clientY + 'px';
+
+			var color = colors[Math.floor(Math.random() * colors.length)];
+			circlesz.style.borderColor = color;
+
+			circlesz.style.transition = "all 0.5s linear 0s";
+
+			circlesz.style.left = circlesz.offsetLeft - 20 + 'px';
+			circlesz.style.top = circlesz.offsetTop - 20 + 'px';
+
+			circlesz.style.width = "50px";
+			circlesz.style.height = "50px";
+			circlesz.style.borderWidth = "5px";
+      circlesz.style.borderRadius = "20px";
+			circlesz.style.opacity = 0;
+			
+			setTimeout(function() {
+			circlesz.remove();
+			}, 500);
+		}=
+</script>
